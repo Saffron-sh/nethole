@@ -25,7 +25,7 @@ We set up a `Man In The Middle` connection between the target and its gateway an
 cutting off __IP forwarding__ using  
 `echo 0 > /proc/sys/net/ipv4/ip_forward`
 
-Now the target is , on the surface, *connected* to the wifi access point but there is just **INFINTE buffering** for them.  
+Now the target is , on the surface, *connected* to the wifi access point but there is just **INFINITE buffering** for them.  
 Because we are NOT forwarding any requests to the Access Point (Wifi router).
 
 *NO deauths. NO packet captures.  
@@ -41,7 +41,7 @@ This is how `nethole` fares so far:
 
 | Target Device | Results|
 |-----------|------------|
-|Tested against **WINDOWS 11** | Same results as the Ipad, *INFITE BUFFERING* and ping requests timing out. | 
+|Tested against **WINDOWS 11** | Same results as the Ipad, *INFINITE BUFFERING* and ping requests timing out. | 
 |Tested against **WINDOWS 10** | Again, the same case, *INFINITE BUFFERING* and ping requests timing out.  |
 |Tested against **XIAOMI PHONES** |  Completely different results, Xiaomi holds out against arp spoofing with both **WPA2 & WPA3** |
 
