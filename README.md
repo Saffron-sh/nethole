@@ -38,3 +38,14 @@ Tested against **XIAOMI PHONES** : Completely different results, Xiaomi holds ou
 
 Xiamoi uses **arp table hardening** (as it seems) to keep a ***static arp table*** and notices how the router suddenly resolves to  
 a new `MAC address` and drops the arp requests by the machine that is trying to arp spoof it.
+
+---
+This is how **Windows 11** behaves under `nethole` :  
+
+![WINDOWS 11](images/win11.png)
+![kali_for_win11](images/kali_for_win11.png)  
+
+And this is how **Windows 10** behave under it:  
+
+![WINDOWS 10](images/win10.png)
+![kali_for_win10](images/kali_for_win10.png)  
