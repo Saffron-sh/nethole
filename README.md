@@ -58,3 +58,14 @@ And this is how **Windows 10** behave under it:
 
 ![WINDOWS 10](images/win10.png)
 ![kali_for_win10](images/kali_for_win10.png)  
+
+### ⚠️ Disclaimer
+
+> This project is intended **strictly for educational and research purposes** only.  
+> `nethole` was created to demonstrate potential weaknesses in WPA3 network behavior under specific conditions and to **raise awareness** about the importance of secure network configurations.  
+>
+> **Do not use this tool on any network you do not own or have explicit permission to test.**  
+> Unauthorized use may violate laws or terms of service and is **strongly discouraged**.  
+>
+> The author takes **no responsibility** for any misuse or damages caused by this tool.  
+> By using `nethole`, you agree to use it **ethically and legally**.
