@@ -33,6 +33,19 @@ Just pure sabotage (enough to drive anyone mad with: "WHY IS THE WIFI DOWN WHEN 
 
 ![Example](images/No_internet.png)
 
+---
+
+### Usage
+
+Use it with the __interface__ you want to attack on, followed by the __target's local IP__ and the __default gateway__  
+
+
+#### Example:
+
+```
+nethole wlan1mon 192.168.42.67 192.168.42.1
+```
+
 Again this is different from the classic case of deauthentication,  
 but it opens up the way for more exploits within **WPA3** (and hey, it gets the thing done)
 
