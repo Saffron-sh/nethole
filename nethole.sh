@@ -25,13 +25,12 @@ echo "[*] Packet forwarding disabled "
 
 cat << banner
 
-+----------------------------+
-|  NETHOLE: Network Jammer   |
-|  ------------------------  |
-|  >> Target: $2             |
-|  >> Gateway: $3            |
-|  >> IP Forwarding: OFF     |
-+----------------------------+
+  NETHOLE: Network Jammer   
+  ________________________ 
+  >> Target: $2             
+  >> Gateway: $3            
+  >> IP Forwarding: OFF  
+  _______________________   
 
 banner
 
