@@ -1,5 +1,12 @@
 #!/bin/bash
 
+norm="\033[0m"
+bold="\033[1m"
+red="\033[0;31m"
+green="\033[0;32m"
+amber="\033[0;33m"
+blue="\033[0;34m"
+
 #Checking if the script is run as root or not.
 
 if [ "$EUID" -ne 0 ]; then
